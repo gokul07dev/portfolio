@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--=============== Remixicons ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"/>
+
+    <!--=============== Css ===============-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/skins/color-1.css" />
+
+    <!--=============== Skin Colors ===============-->
+    <!-- <link rel="stylesheet" href="assets/css/skins/color-1.css" 
+      class="alternate-style" title="color-1" disabled />
+    <link rel="stylesheet" href="assets/css/skins/color-2.css"
+      class="alternate-style" title="color-2" disabled/> -->
+
+    <title>Gokul's Portfolio</title>
+  </head>
+  <body>
+    <!--=============== Header ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="#home" class="nav__link active-link">Home</a></li>
+            <li><a href="#services" class="nav__link">Services</a></li>
+            <li><a href="#resume" class="nav__link">Resume</a></li>
+            <li><a href="#portfolio" class="nav__link">Portfolio</a></li>
+            <li><a href="#contact" class="nav__link">Contact</a></li>
+          </ul>
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-fill"></i>
+          </div>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-fill"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--=============== Main ===============-->
+    <main class="main">
+      <!--=============== Home ===============-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <img src="assets/img/profile.png" alt="Profile" class="home__img">
+          <div class="home__data">
+            <h1 class="home__name">Gokul Chellapandian</h1>
+            <p class="home__work">Software Developer</p>
+            <dl class="home__list">
+              <dt>AGE:</dt>
+              <dd>23</dd>
+              <dt>PHONE:</dt>
+              <dd>+91 8870272721</dd>
+              <dt>EMAIL:</dt>
+              <dd>karthickgokul227@gmail.com</dd>
+              <dt>ADDRESS:</dt>
+              <dd>Didigul, Tamil Nadu - 624202</dd>
+            </dl>
+            <div class="home__socials">
+              <!-- <a href="https://" target="_blank" class="home__social-link">
+                <i class="ri-github-fill"></i>
+              </a> -->
+              <a href="https://www.linkedin.com/in/gokul-developer/" target="_blank" class="home__social-link">
+                <i class="ri-linkedin-box-fill"></i>
+              </a>
+              <!-- <a href="https://" target="_blank" class="home__social-link">
+                <i class="ri-facebook-box-fill"></i>
+              </a> -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== Hello ===============-->
+      <section class="hello section container">
+        <h2 class="section__title">Hi_</h2>
+        <p class="hello__details text-lg">
+          I'm a dynamic and results-driven Software Developer with 2 years and 6 months of hands-on experience in MEAN stack development, 
+          with a strong focus on JavaScript and Angular. Adept at designing, developing, and deploying scalable web applications with a user-centric approach. 
+          Known for delivering high-quality, maintainable code, bug free and enhancing application performance. 
+          Eager to contribute innovative solutions and collaborate with teams to drive impactful projects.
+        </p>
+        <a href="assets/img/GokulResume.pdf" target="_blank" class="button button__flex text-sm">
+          <i class="ri-download-line"> DOWNLOAD CV</i>
+        </a>
+      </section>
+
+      <!--=============== Services ===============-->
+      <section class="services section container" id="services">
+        <h2 class="section__title">Services_</h2>
+        <div class="services__container grid">
+          <div class="services__item">
+            <div class="icon__box">
+              <img src="assets/img/web-design.png" alt="" class="services__icon">
+              <div class="services__dot">
+                <span class="dot"></span>
+              </div>
+            </div>
+            <h3 class="services__title text-lg">WEB DESIGN</h3>
+            <p class="services__detail">Crafting visually engaging and intuitive web interfaces that captivate users and reflect brand identity.</p>
+          </div>
+          <div class="services__item">
+            <div class="icon__box">
+              <img src="assets/img/laptop.png" alt="" class="services__icon">
+              <div class="services__dot">
+                <span class="dot"></span>
+              </div>
+            </div>
+            <h3 class="services__title text-lg">WEB DEVELOPMENT</h3>
+            <p class="services__detail">Building robust, scalable, and high-performing websites tailored to your business needs.</p>
+          </div>
+          <div class="services__item">
+            <div class="icon__box">
+              <img src="assets/img/smartphone-call.png" alt="" class="services__icon">
+              <div class="services__dot">
+                <span class="dot"></span>
+              </div>
+            </div>
+            <h3 class="services__title text-lg">RESPONSIVE DESIGN</h3>
+            <p class="services__detail">Creating adaptable web layouts that deliver seamless user experiences across all devices.</p>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== Resume ===============-->
+      <section class="section container" id="resume">
+        <h1 class="section__title">Resume_</h1>
+        <div class="resume__container grid">
+          <div class="resume__data">
+            <h3 class="resume__title text-sm">EMPLOYEMENT</h3>
+            <div class="resume__item">
+              <h3 class="resume__subtitle text-sm">GAIPP PVT LTD</h3>
+              <p class="resume__date text-sm">2022 - Present</p>
+              <p class="resume__description text-lg">Junior Software Developer</p>
+              <p class="resume__description">Developed and maintained Angular applications, implemented reusable
+                components using Angular. Worked in back end development and created REST APIs, enhancing
+                functionality and performance. Debugged and optimized code for cross-browser compatibility and
+                responsiveness. Conducted code reviews and optimized existing codebases, ensuring highquality and bug-free deliverables.</p>
+            </div>
+          </div>
+          <div class="resume__data">
+            <h3 class="resume__title text-sm">EDUCATION</h3>
+            <div class="resume__item">
+              <h3 class="resume__subtitle text-sm">THE AMERICAN COLLEGE</h3>
+              <p class="resume__date text-sm">2019 - 2022</p>
+              <p class="resume__description text-lg">Bachelor's Degree in Computer Science</p>
+              <p class="resume__description">GPA - 8.25</p>
+            </div>
+            
+            <div class="resume__item">
+              <h3 class="resume__subtitle text-sm">THAAI MATRIC HIGHER SECONDARY SCHOOL</h3>
+              <p class="resume__date text-sm">2021 - 2022</p>
+              <p class="resume__description text-lg">HSC</p>
+              <p class="resume__description">GPA - 6.67</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== Skills ===============-->
+      <section class="section container">
+        <h2 class="section__title">Skills_</h2>
+
+        <div class="skills__container grid">
+          <div class="skills__content">
+            <h3 class="skills__title text-sm">FRONTEND</h3>
+            
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">HTML5</p>
+                  <span class="skills__number text-sm">90%</span>
+                </div>
+
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 90%;"></span>
+                </div>
+              </div>
+              
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">CSS3</p>
+                  <span class="skills__number text-sm">70%</span>
+                </div>
+
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 70%;"></span>
+                </div>
+              </div>
+              
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">JavaScript</p>
+                  <span class="skills__number text-sm">80%</span>
+                </div>
+
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 80%;"></span>
+                </div>
+              </div>
+              
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">Angular</p>
+                  <span class="skills__number text-sm">70%</span>
+                </div>
+
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 70%;"></span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="skills__content">
+            <h3 class="skills__title text-sm">BACKEND</h3>
+            
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">NodeJs</p>
+                  <span class="skills__number text-sm">60%</span>
+                </div>
+
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 60%;"></span>
+                </div>
+              </div>
+              
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">ExpressJs</p>
+                  <span class="skills__number text-sm">70%</span>
+                </div>
+
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 70%;"></span>
+                </div>
+              </div>
+              
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">MongoDB</p>
+                  <span class="skills__number text-sm">85%</span>
+                </div>
+
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 85%;"></span>
+                </div>
+              </div>
+              
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">MySQL</p>
+                  <span class="skills__number text-sm">70%</span>
+                </div>
+
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 70%;"></span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== Projects ===============-->
+      <section class="work section container" id="portfolio">
+        <h2 class="section__title">Projects_</h2>
+
+        <div class="projects__container grid">
+          <div class="project__item grid">
+            <img src="assets/img/entrily-crm.png" alt="" class="project__img">
+            <div class="project__data">
+              <h3 class="project__title text-lg">ENTRILY</h3>
+              <p class="project__description">Entrily is a global admission platform that connects students, recruitment
+                partners, and educational institutions to streamline international student recruitment and admissions.</p>
+              <h4 class="project__stack text-xs">USED STACK:</h4>
+              <ul class="tags text-sm">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Bootstrap</li>
+                <li>Angular11</li>
+                <li>Node.Js</li>
+                <li>MongoDB</li>
+              </ul>
+              <a href="https://www.entrily.com" target="_blank" class="project__link text-sm">www.entrily.com</a>
+            </div>
+          </div>
+
+          <div class="project__item grid">
+            <img src="assets/img/movedesk.png" alt="" class="project__img">
+            <div class="project__data">
+              <h3 class="project__title text-lg">MOVEDESK</h3>
+              <p class="project__description">MoveDesk is a business management tool that simplifies project management
+                and boosts efficiency. It includes features like task assignment, workflow
+                management, productivity tracking, and team collaboration.</p>
+              <h4 class="project__stack text-xs">USED STACK:</h4>
+              <ul class="tags text-sm">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Bootstrap</li>
+                <li>Angular11</li>
+                <li>Node.Js</li>
+                <li>MongoDB</li>
+              </ul>
+              <a href="https://www.movedesk.online" target="_blank" class="project__link text-sm">www.movedesk.online</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== Testimonials ===============-->
+      <!-- <section class="testimonials section"></section> -->
+
+      <!--=============== Blog ===============-->
+      <!-- <section class="blog section container" id="blog"></section> -->
+
+      <!--=============== Contact ===============-->
+      <section class="contact section" id="contact">
+        <div class="contact__content container">
+          <h2 class="section__title">Get in touch_</h2>
+
+          <div class="contact__container grid">
+            <div class="contact__info">
+              <dl class="contact__list">
+                <dt>Phone:</dt>
+                <dd>+91 8870272721</dd>
+                <dt>Email:</dt>
+                <dd>karthickgokul227@gmail.com</dd>
+              </dl>
+
+              <ul class="contact__socials">
+                <li><a href="https://www.linkedin.com/in/gokul-developer/" target="_blank" class="contact__social-link">LinkedIn</a></li>
+              </ul>
+            </div>
+
+            <div class="contact__form">
+              <p class="contact__form-title">Or just write me a letter here_</p>
+
+              <form action="" id="contact-form">
+                <div class="contact__input-div">
+                  <input name="name" type="text" autocomplete="nope" placeholder="Your name" id="contact-name" class="contact__input">
+                </div>
+                <div class="contact__input-div">
+                  <input name="email" type="email" autocomplete="nope" placeholder="Your e-mail" id="contact-email" class="contact__input">
+                </div>
+                <div class="contact__input-div">
+                  <textarea name="message" id="message" autocomplete="nope" placeholder="Type the message here" class="contact__input textarea" cols="30" rows="10"></textarea>
+                </div>
+                <p class="contact__message text-sm" id="contact-message"></p>
+                <button type="submit" class="button contact__button">SEND</button>
+              </form>
+
+              <p class="footer__copy">&copy; 2025 Gokul. All Rights Reserved</p>
+
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--=============== Style Switcher ===============-->
+    <div class="style__switcher"></div>
+
+    <!--=============== Email Js ===============-->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+
+    <!--=============== Js ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
